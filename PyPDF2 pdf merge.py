@@ -7,10 +7,8 @@ from PyPDF2 import PdfFileMerger
 from PyPDF2 import PdfFileReader
 
 
-
-
-# file folder location
-input_dir = "C:/Users/Brainx/Documents/electronics/"
+# file folder location for more read readme.md
+input_dir = "C:/Users/"
 
 
 
@@ -50,7 +48,7 @@ for pdf in merge_list:
     
     
 #output merge file    
-merger.write("C:/Users/Brainx/Documents/electronics/All in one.pdf") #your output directory
+merger.write("C:/Users/All in one.pdf") #your output directory
 merger.close()
 
 print("Done.. check your output directory")
